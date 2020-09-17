@@ -73,8 +73,26 @@ $questions = [
                     <p><?php echo $value["risposta"]; ?></p>
                 <?php } ?>
             </div>
-
         </main>
-
+        <footer>
+            <div class="container-footer">
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
+                </ul>
+                <div class="selection">
+                    <i class="fas fa-comment-alt"></i>
+                    <select class="" name="">
+                        <option value="">Italiano</option>
+                        <option value="">English</option>
+                        <option value="">Espanol</option>
+                        <option value="">Français</option>
+                        <option value="">°§*éç@</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
