@@ -1,0 +1,91 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 14px;
+   color: rgb(33,33,33);
+}
+
+
+h2 {
+    font-size: 22px;
+    color: rgb(60,64,67);
+}
+
+/* HEADER */
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(203,203,203);
+}
+
+.header-top{
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.header-top img{
+    height: 25px;
+    width: auto;
+}
+
+.header-top h2 {
+    margin-left: 10px;
+    color: rgb(95,99,104);
+    font-weight: 400;
+}
+
+.header-bot {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-bot ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-bot ul li {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(95,99,104);
+    padding-bottom: 10px;
+    margin-right: 35px;
+}
+
+.header-bot ul li.selected{
+    color: rgb(51,103,214);
+    border-bottom: 3px solid rgb(51,103,214);
+}
+
+.header-bot .mail {
+    font-weight: bold;
+    color: rgb(100,99,104);
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.header-bot .mail i {
+    font-size: 25px;
+    margin-right: 5px;
+    color: rgb(104,159,56);
+}
+
+/* MAIN */
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 70vw;
+    margin-top: 200px;
+}
