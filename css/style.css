@@ -94,6 +94,11 @@ main{
     margin: 60px 0 20px;
 }
 
+#risposta {
+    margin: 20px 0;
+}
+
+
 /* FOOTER */
 footer{
     display: flex;
